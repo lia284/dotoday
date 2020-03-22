@@ -1,0 +1,243 @@
+html { margin: 0}
+body {
+  min-height: 100%;
+  color: #fff;
+  font-size: xx-large;
+  background: linear-gradient(0deg, var(--purple) 0%, var(--indigo) 20%, var(--blue) 100%) fixed;
+}
+
+a {
+  color: #fff;
+  opacity: 0.7;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+
+.alert {
+  font-size: xx-large;
+}
+
+.login-form {
+  margin-top: 30vh;
+  height: 20vh;
+}
+
+.signin-form {
+  margin-top: 10vh;
+  height: 20vh;
+
+  font-size: xx-large;
+}
+
+.big{
+  height: 5vh;
+  font-size: xx-large;
+}
+
+#createAccount {
+  color: #ffffff;
+  margin: 1vh auto;
+}
+
+.preferences {
+  height: 100%;
+  font-size: 120;
+  margin-top: 20vh;
+}
+
+.label {
+  margin-top: 3vh;
+}
+
+.options {
+
+}
+
+.bn:focus {
+
+}
+
+
+
+.large {
+  font-size: xx-large;
+  margin: 1vh 2vw;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 2vh;
+  left: 5%;
+
+}
+
+.btn-pref {
+  width: 90%;
+}
+
+
+.profile {
+  margin-top: 10vh;
+  font-size: xx-large;
+}
+.profie-picture {
+  height: 10vh;
+}
+.profile-text {
+  margin-bottom: 5vh;
+}
+.profile-row {
+  margin-top: 1vh;
+}
+.profile-des {
+  font-weight: bold;
+}
+.profile-val {
+  font-weight: normal;
+}
+
+.navbar {
+  width: 80%;
+  position: fixed;
+  bottom: 3vh;
+  left: 10%;
+
+  font-weight: lighter;
+}
+
+.tab {
+  width: 100%;
+  position: fixed;
+  top: 2vh;
+  left: 0;
+  z-index: 10;
+
+
+
+}
+
+.livefeed {
+  overflow: scroll;
+  width: 100%;
+  height: 70vh;
+  margin-top: 10vh;
+}
+
+.content {
+  width: 90%;
+  margin: 1vh 5%;
+  color: #000;
+}
+
+.card-img-top {
+  height: 30vh;
+  background-color: #dedede;
+  background-image: url('content.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-title {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.content-text {
+  font-size: xx-large;
+}
+
+
+.btn-round {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 100px;
+  position: fixed;
+  bottom: 10vh;
+  right: 5vw;
+}
+
+.category-menu {
+  font-size: xx-large;
+  margin: 5vh 0 -10vh;
+  text-decoration: underline;
+}
+
+.search-overlay {
+  height: 60vh;
+  width: 80vw;
+  margin: 20vh 10vw;
+  background-color: #ffffff;
+  color: #000;
+  overflow: scroll;
+  border-radius: 10px;
+  padding-left: 3vw;
+}
+
+.icon-big { width: 5vw; height: 5vw;}
+
+.search {
+  width: 100%;
+  height: 10vh;
+
+}
+
+.search-input { font-size: xx-large; width: 50vw !important; height: 5vh; margin-right: 5vw}
+.search-btn { font-size: xx-large; width: 15vw; height: 5vh; display: inline-block;}
+
+.search-list {
+  height: 40vh;
+  margin-left: 5vw;
+
+}
+
+.search-item {
+
+}
+
+.btn-search {
+  font-size: xx-large;
+  margin-right: 5vw;
+}
+
+
+.add {
+  width: 90%;
+  margin: 10vh 5%;
+}
+
+.add-form {
+  margin-top: 4vh;
+}
+
+
+@media (min-width: 576px) {
+  .big { height: 7vh;}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .big { height: 10vh;}
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .big { height: 10vh;}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .big { height: 10vh;}
+}
